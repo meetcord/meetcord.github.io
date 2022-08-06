@@ -69,6 +69,18 @@ a {
 	cursor: pointer;
 }
 
+@media screen and (max-width: 750px) {
+	.maintext {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.bigavatar {
+		margin-right: 0;
+	}
+}
+
 .toptext h1 {
 	color: #7289da;
 	font: 700 48px Times New Roman, Times, serif;
@@ -89,7 +101,7 @@ footer {
 	margin-top: 100%;
 }
 
-@media screen and (max-height: 800px) , screen and (max-width: 700px) {
+@media screen and (max-height: 800px) , screen and (max-width: 750px) {
 
 	.bigavatar {
 		width: 130px;
@@ -106,7 +118,7 @@ footer {
 
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 750px) {
 	.wb_button {
 		width: 100px !important;
 	}
